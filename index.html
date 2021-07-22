@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title id="title">
+	Check if you have an exemption from paying NHS costs - NHSBSA
+</title>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+
+	<!-- NHSUK Toolkit links-->
+	<!-- app base -->
+	<link href="/css/nhsuk-5.1.0.min.css" media="screen" rel="stylesheet" />
+	<!-- <link rel="stylesheet" href="/check-my-nhs-exemption/css/icons-4f429ae549bade5f9befac076d024e51.css" /> -->
+	<link rel="stylesheet" href="/css/app.css" />
+	<script src="/js/nhsuk-5.1.0.min.js" defer="defer"></script>
+
+	<!-- Assets -->
+	<link href="https://www.nhs.uk/" rel="preconnect" />
+	<link href="https://assets.nhs.uk/" rel="preconnect" crossorigin="crossorigin" />
+
+	<!-- Fonts -->
+	<link type="font/woff2" href="https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff2" rel="preload" as="font"
+		crossorigin="crossorigin" />
+	<link type="font/woff2" href="https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff2" rel="preload" as="font"
+		crossorigin="crossorigin" />
+	<!-- Icons -->
+	<link rel="shortcut icon" href="/assets/favicons/favicon.ico"
+		type="image/x-icon" />
+	<link rel="apple-touch-icon"
+		href="/assets/favicons/apple-touch-icon-180x180.png" />
+	<link rel="mask-icon" href="/check-my-nhs-exemption/webjars/nhsbsa-frontend/0.2.0/assets/favicons/favicon-ec22bc2cbc81afd48bec296e3535998a.svg" color="#005eb8" />
+	<link rel="icon" sizes="192x192" href="/check-my-nhs-exemption/webjars/nhsbsa-frontend/0.2.0/assets/favicons/favicon-192x192-43924bfe6c7e0f6c0996ee28ad6a5883.png" />
+
+	<!-- Meta data -->
+	<meta name="msapplication-TileImage"
+		content="/check-my-nhs-exemption/webjars/nhsbsa-frontend/0.2.0/assets/favicons/mediumtile-144x144-cf49858724925dbcfe5f3fa5c90aee0b.png" />
+	<meta name="msapplication-TileColor" content="#005eb8" />
+	<meta name="msapplication-square70x70logo"
+		content="/check-my-nhs-exemption/webjars/nhsbsa-frontend/0.2.0/assets/favicons/smalltile-70x70-29f75b06cf758e8be6b5646317ff3bff.png" />
+	<meta name="msapplication-square150x150logo"
+		content="/check-my-nhs-exemption/webjars/nhsbsa-frontend/0.2.0/assets/favicons/mediumtile-150x150-89688d93af5bdc0778ec7e4c7b443ac2.png" />
+	<meta name="msapplication-wide310x150logo"
+		content="/check-my-nhs-exemption/webjars/nhsbsa-frontend/0.2.0/assets/favicons/widetile-310x150-535c3996630d6b6a7250a807d6eec5de.png" />
+	<meta name="msapplication-square310x310logo"
+		content="/check-my-nhs-exemption/webjars/nhsbsa-frontend/0.2.0/assets/favicons/largetile-310x310-294742e00ff46e8a003d4de1f2c98be7.png" />
+
+	<!--To DO - check with team about social content-->
+	<!-- <meta property="og:url" content="https://nhsuk.github.io/nhsuk-frontend/">
+    <meta property="og:title" content="NHS.UK frontend library">
+    <meta property="og:description" content="Code you need to start building accessible user interfaces for NHS websites and services.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ baseUrl }}assets/logos/open-graph.png">
+    <meta property="og:image:alt" content="NHS">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@nhsuk">
+    <meta name="twitter:creator" content="@nhsuk"> -->
+	<!-- /. -->
+
+	
+		
+    <noscript>
+    <meta http-equiv="refresh" content="1800;url=/check-my-nhs-exemption/session-timeout" /> 
+    </noscript>
+    <link href="/check-my-nhs-exemption/webjars/bsa-session-timeout/0.2.0/stylesheets/modal-dialog-8a8f4a82e5e434573b4d4becd3c54737.css" media="screen" rel="stylesheet" />
+ 
+	
+
+	<!-- Cookie Banner -->
+	
+	
+		<script data-policy-url="/check-my-nhs-exemption/cookies" src="/check-my-nhs-exemption/javascripts/cookie.min.bsa-465bdaf3f7c0d487c5b87c428af81327.js"></script>
+	
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-6408051-1" data-cookieconsent="statistics"
+		type="text/plain"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-6408051-1');
+	</script>
+	<!-- End Google Tag Manager -->
+
+
+</head>
+
+<body>
+	<script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+	
+		<a class="nhsuk-skip-link" href="#content">Skip to main content</a>
+	
+
+	<header class="nhsuk-header" id="nhs-global-header" role="banner">
+		<div class="nhsuk-width-container nhsuk-header__container">
+			<div class="nhsuk-header__logo">
+				<a class="nhsuk-header__link nhsuk-header__link--service" id="logo"
+					aria-label="Apply online for help with NHS costs" href="/check-my-nhs-exemption/">
+					<svg class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" focusable="false"
+						viewBox="0 0 40 16">
+						<path class="nhsuk-logo__background" d="M0 0h40v16H0z"></path>
+						<path class="nhsuk-logo__text"
+							d="M3.9 1.5h4.4l2.6 9h.1l1.8-9h3.3l-2.8 13H9l-2.7-9h-.1l-1.8 9H1.1M17.3 1.5h3.6l-1 4.9h4L25 1.5h3.5l-2.7 13h-3.5l1.1-5.6h-4.1l-1.2 5.6h-3.4M37.7 4.4c-.7-.3-1.6-.6-2.9-.6-1.4 0-2.5.2-2.5 1.3 0 1.8 5.1 1.2 5.1 5.1 0 3.6-3.3 4.5-6.4 4.5-1.3 0-2.9-.3-4-.7l.8-2.7c.7.4 2.1.7 3.2.7s2.8-.2 2.8-1.5c0-2.1-5.1-1.3-5.1-5 0-3.4 2.9-4.4 5.8-4.4 1.6 0 3.1.2 4 .6">
+						</path>
+						<image src="https://assets.nhs.uk/images/nhs-logo.png" xlink:href=""
+							alt="NHS Business Services Authority">
+						</image>
+					</svg>
+					<span class="nhsuk-header__service-name">
+						Check if you have an exemption from paying NHS costs
+					</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="nhsuk-width-container">
+		<div class="nhsuk-phase-banner nhsuk-u-margin-bottom-4">
+				<p class="nhsuk-phase-banner__content">
+					<strong class="nhsuk-tag nhsuk-phase-banner__content__tag">
+						BETA
+					</strong>
+					<span class="nhsuk-phase-banner__text">
+						This is a new service
+						
+							- your
+							<a href="https://wh1.snapsurveys.com/s.asp?k=150212725926" target="_blank"
+								rel="noopener">feedback<span class="nhsuk-u-visually-hidden"> (opens in a new
+									tab)</span></a> will help us to improve
+							it.
+						
+					</span>
+				</p>
+			</div>
+		<main class="nhsuk-main-wrapper" id="content" role="main">
+			<div class="nhsuk-grid-row">
+				<div class="nhsuk-grid-column-two-thirds">
+					<form class="form" method="post" action="/check-my-nhs-exemption/start"><input type="hidden" name="_csrf" value="0b90847f-6995-43f8-85fb-f06be45bf86a"/>
+						<h1 class="nhsuk-heading-xl">Check if you have an exemption from paying NHS costs</h1>
+
+						<p class="nhsuk-body-l">An NHS exemption certificate helps you to pay for your NHS costs, such as
+							prescriptions or dental treatment.</p>
+
+						<h2 class="nhsuk-heading-l">What you can check</h2>
+
+						<p>If you live in England, you can use this service to check if your NHS exemption:</p>
+
+						<ul class="nhsuk-list nhsuk-list--bullet">
+							<li>is still valid or will expire soon</li>
+							<li>entitles you to free NHS prescriptions</li>
+							<li>entitles you to free NHS dental check-ups and treatment</li>
+						</ul>
+
+						<h3 class="nhsuk-heading-m">Exemptions you can check</h3>
+
+						<ul class="nhsuk-list nhsuk-list--bullet">
+							<li>prescription prepayment certificate (PPC)</li>
+							<li>medical exemption certificate</li>
+							<li>maternity exemption certificate</li>
+							<li>HC2 certificate (full help through the Low Income Scheme)</li>
+							<li>Tax Credit exemption certificate</li>
+						</ul>
+
+						<h3 class="nhsuk-heading-m">Exemptions you can't currently check</h3>
+
+						<ul class="nhsuk-list nhsuk-list--bullet">
+							<li>prescription exemption certificate issued by the Ministry of Defence</li>
+							<li>HC3 certificate (partial help through the Low Income Scheme)</li>
+						</ul>
+
+						<p>This result can only be used as proof today. You'll need to check this service each time you want to use
+							it as proof.</p>
+
+						<h2 class="nhsuk-heading-l">When you don't need to check</h2>
+
+						<p>You're automatically entitled to free NHS prescriptions and NHS dental treatment if you are:</p>
+
+						<ul class="nhsuk-list nhsuk-list--bullet">
+							<li>under 16</li>
+							<li>16, 17 or 18 and in full time education</li>
+							<li>getting <a href="https://www.nhsbsa.nhs.uk/check-if-youre-eligible-help/getting-benefits"
+									target="_blank" rel="noopener">certain benefits<span class="nhsuk-u-visually-hidden"> (Opens in a new
+										tab)</span></a> or you're named
+								on the claim as a partner or child.
+							</li>
+						</ul>
+
+						<div>
+				<div class="nhsuk-form-group">
+					<input class="nhsuk-button" type="submit" value="Start now" id="next-button" />
+				</div>
+			</div>
+					</form>
+
+				</div>
+
+			</div>
+		</main>
+	</div>
+
+
+
+	
+		<footer role="contentinfo">
+			<div class="nhsuk-footer" id="nhsuk-footer">
+				<div class="nhsuk-width-container">
+					<h2 class="nhsuk-u-visually-hidden">Support links</h2>
+					<ul class="nhsuk-footer__list">
+						<li class="nhsuk-footer__list-item"><a class="nhsuk-footer__list-item-link"
+								id="footer-link-privacy" target="_blank"
+								href="https://www.nhsbsa.nhs.uk/our-policies/privacy/check-if-you-have-nhs-exemption-privacy-notice"
+								rel="noopener">Privacy<span class="nhsuk-u-visually-hidden"> (opens in a new
+									window)</span></a></li>
+						<li class="nhsuk-footer__list-item"><a class="nhsuk-footer__list-item-link"
+								id="footer-link-cookies" href="/check-my-nhs-exemption/cookies">Cookies</a></li>
+						<li class="nhsuk-footer__list-item"><a class="nhsuk-footer__list-item-link"
+								id="footer-link-terms" target="_blank"
+								href="https://www.nhsbsa.nhs.uk/our-policies/terms-and-conditions" rel="noopener">Terms
+								and conditions<span class="nhsuk-u-visually-hidden"> (opens in a new window)</span></a>
+						</li>
+						<li class="nhsuk-footer__list-item"><a class="nhsuk-footer__list-item-link"
+								id="footer-link-accessibility" target="_blank" rel="noopener"
+								href="https://www.nhsbsa.nhs.uk/accessibility-statement-check-if-you-have-exemption-paying-nhs-costs">Accessibility<span
+									class="nhsuk-u-visually-hidden"> (opens in a new tab)</span></a></li>
+					</ul>
+					<p class="nhsuk-footer__copyright">&#xA9; Crown copyright</p>
+					<!--To fix-->
+				</div>
+			</div>
+			<div class="app-ogl-footer">
+        <div class="nhsuk-width-container app-width-container">
+          <p class="app-ogl-footer--text">
+            Built by the 
+            <a class="nhsuk-footer__list-item-link" id="footer-link-dental" target="_blank" href="http://www.nhsbsa.nhs.uk" rel="noopener noreferrer">NHS Business Services Authority<span class="nhsuk-u-visually-hidden">(opens in a new tab)</span></a>.
+          </p>
+          <p class="app-ogl-footer--text">
+            <svg xmlns="http://www.w3.org/2000/svg"  height="17" width="41" focusable="false" viewBox="0 0 483.2 195.7">
+              <path fill="currentColor" d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"></path>
+            </svg>
+            All content is available under the <a class="nhsuk-footer__list-item-link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated.
+          </p>
+        </div>
+      </div>
+		</footer>
+
+		
+			
+		<dialog id="js-modal-dialog" class="modal-dialog dialog" role="dialog" aria-live="polite" aria-labelledby="dialog-title" aria-describedby="at-timer" data-url-redirect="/check-my-nhs-exemption/session-timeout" data-session-timeout="1800" data-session-timeout-warning="300">
+		  <div class="modal-dialog__inner">
+		    <h1 id="dialog-title" class="heading-large">
+		      Your application will time out soon
+		    </h1>
+		    <div class="modal-dialog__inner__text">
+		      <div id="timer" class="timer" aria-hidden="true" aria-relevant="additions"></div>
+		      <div id="at-timer" class="at-timer visually-hidden" role="status"></div>
+		      
+		    </div>
+		    <div class="modal-dialog__inner__block">
+		      <button class="button dialog-button modal-dialog__inner__button js-dialog-close">Continue application</button>
+		    </div>
+		  </div>
+		</dialog>
+	
+		
+	
+
+	
+		<!-- Return from Cookie -->
+		
+			<!-- Store the url for cookie return -->
+			<script>
+				function getURL() {
+					// checks to see if cookie prefence has been set
+					if (NHSCookieConsent.getConsented() === false) {
+						// gets the current URL
+						const getURL = document.referrer;
+						// stores URL in session storage
+						sessionStorage.setItem("sessionURL", getURL);
+					}
+				}
+			</script>
+		
+		
+		
+		<script>
+			// Document ready
+			(function () {
+				getURL();
+			})();
+		</script>
+		<!-- end of cookie scripts -->
+		<div id="global-app-error" class="app-error hidden"></div>
+		<script src="/check-my-nhs-exemption/javascripts/jquery-3.6.0.min-7c14a783dfeb3d238ccd3edd840d82ee.js"></script>
+		<script src="/check-my-nhs-exemption/javascripts/app-extended-a15bad5b3f3dc1cf80a64dcd4aeb67c7.js"></script>
+
+		
+			
+    <script src="/check-my-nhs-exemption/webjars/bsa-session-timeout/0.2.0/javascript/modal-dialog-3d70e0bd1e756b8b23519cfe1861df9f.js"></script>
+    <script src="/check-my-nhs-exemption/webjars/bsa-session-timeout/0.2.0/javascript/dialog-polyfill.0.4.3-72a060b2a0da78bcddf761f0ccb2e258.js"></script>
+    <script src="/check-my-nhs-exemption/webjars/bsa-session-timeout/0.2.0/javascript/session-timeout-6f4f41628f90a38416ce495731257d7d.js"></script>
+  
+		
+	
+
+</body>
+
+</html>
